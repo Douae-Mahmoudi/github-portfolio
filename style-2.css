@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    text-align: center; /* Centre le texte */
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    border: 2px solid  burlywood;
+}
+ul{
+    color:white ;
+}
+a{
+    color:white ;
+
+}
+a:hover{
+    color: burlywood;
+}

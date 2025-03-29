@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Navigation */
+header {
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav-bar a:hover {
+    color: burlywood;
+}
+
+/* Home Section */
+#first-sect {
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    gap: 40px; /* Espacement entre le texte et l'image */
+    max-width: 80%;
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+}
+
+/* Contenu principal (texte) */
+.home-content {
+    flex: 1; /* Prend tout l'espace disponible */
+    max-width: 900px;
+    color: white;
+}
+
+/* Image Section */
+aside {
+    flex: 0; /* Permet à l'image de ne pas prendre trop d'espace */
+    display: flex;
+    justify-content: flex-end; /* Aligner à droite */
+    align-items: center; /* Centre l’image verticalement */
+}
+
+.first-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid burlywood;
+    box-shadow: 0 0 25px beige;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+/* Icônes de contact */
+.contact-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: burlywood;
+}
+
+/* Footer */
+#main-footer {
+    width: 100%;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#main-footer p {
+    margin: 0;
+    font-size: 14px;
+}
